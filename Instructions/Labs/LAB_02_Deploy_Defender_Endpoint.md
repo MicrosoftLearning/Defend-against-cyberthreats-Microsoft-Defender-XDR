@@ -20,7 +20,7 @@ This exercise should take approximately **15** minutes to complete.
 
 ### Task 1: Initialize Microsoft Defender for Endpoint
 
-In this task, you'll perform the initialization of the Microsoft Defender for Endpoint.
+In this task, you perform the initialization of the Microsoft Defender for Endpoint.
 
 1. Sign-in to **WIN1** virtual machine as Admin with the password: **Pa55w.rd**.  
 
@@ -47,7 +47,7 @@ In this task, you'll perform the initialization of the Microsoft Defender for En
 
 ### Task 2: Onboard a Device
 
-In this task, you'll onboard a device to Microsoft Defender for Endpoint using an onboarding script.
+In this task, you onboard a device to Microsoft Defender for Endpoint using an onboarding script.
 
 1. In the **Defender XDR** portal, from the navigation menu on the left, scroll down and expand the **System** section and select **Settings**, then from the Settings page select **Endpoints**.
 
@@ -74,34 +74,50 @@ In this task, you'll onboard a device to Microsoft Defender for Endpoint using a
 
 ### Task 3: Configure Roles
 
-In this task, you'll configure roles for use with device groups.
+In this task, you configure roles for use with device groups.
 
-1. In the Microsoft Defender XDR portal left menu bar, expand the **System** section and select **Settings**, then select **Endpoints**.
+1. In the Microsoft Defender XDR portal navigation menu, expand the **System** section and select **Settings**, then select **Microsoft Defender XDR**.
 
-1. Select **Roles** under the permissions area.
+1. Select **Permissions and Roles** under the *Account* section.
 
-1. Select the **Turn on roles** button.
+1. Scroll down the page and select the **Go to Permissions and roles** link.
 
-1. Select **+ Add role**.
+1. On the *Permissions and roles* page, select **+ Create custom role**.
 
-1. In the Add role dialog, enter the following:
+1. On the *Basics* page In the Add role dialog, enter the following:
 
-    |General setting|Value|
+    |Basics setting|Value|
     |---|---|
     |Role name|**Tier 1 Support**|
-    |Permissions|Live Response capabilities - Advanced|
 
 1. Select **Next**.
 
-1. Select the **Assigned user groups** tab on the top. Select **sg-IT** and then select **Add selected groups**. Make sure it appears under *Azure AD user groups with this role*.
+1. On the **Permissions** page, select the following permissions:
+
+    |Permissions group|Description|
+    |Security Operations|Manages day-to-day operations and responds to incidents and advisories|
+
+1. In the pop-out page for *Security operations*, select the **All read and manage permissions** radio button.
+
+1. Select **Apply**, and then select **Next**.
+
+1. On the **Assign users and data sources** page, select the **Create assignment** button.
+
+1. In the *Add assignment* dialog, enter the following:
+
+    |Assignment setting|Value|
+    |---|---|
+    |Assignment name|**Tier 1 Support**|
+    |Employees|****sg-IT**|
+    |Data sources|**Leave default**|
+
+1. Select **Add**, then select **Next**.
 
 1. Select **Submit** and then **Done** when finished.
 
-    >**Note:** If you receive the error *"User can't perform this action since its UserAuthEnforcementMode is Rbac and this action requires one of: RbacV2"*, select **OK** and try again.
-
 ### Task 4: Configure Device Groups
 
-In this task, you'll configure device groups that allow for access control and automation configuration.
+In this task, you configure device groups that allow for access control and automation configuration.
 
 1. In the Microsoft Defender XDR portal left menu bar, expand the **System** section and select **Settings**, then select **Endpoints**.
 
@@ -118,9 +134,9 @@ In this task, you'll configure device groups that allow for access control and a
 
 1. Select **Next**.
 
-1. On the Devices tab, for the OS condition select **Windows 10** and select **Next**.
+1. On the Devices tab, for the OS condition select **Windows 11** and select **Next**.
 
-    >**Note:** Some lab hosting providers may have configured *Windows 11* images for WIN1. You can select either or both.
+    >**Note:** Some lab hosting providers may still have *Windows 10* images for WIN1. You can select either or both.
 
 1. On the Preview devices tab, the *Show preview* button could show the WIN1 virtual machine, but most likely the data isn't populated yet. Select **Next** to continue.
 
@@ -128,7 +144,7 @@ In this task, you'll configure device groups that allow for access control and a
 
 1. Select **Submit** and then **Done** when finished.
 
-1. Device group configuration has changed. Select **Apply changes** to check matches and recalculate groupings.
+1. On the *Device group configuration has changed. Apply changes to check matches and recalculate groupings*  information message, select **Apply changes**.
 
 1. You're going to have two device groups now; the "Regular" you created and the "Ungrouped devices (default)" with the same remediation level.
 
