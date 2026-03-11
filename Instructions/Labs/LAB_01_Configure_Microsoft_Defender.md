@@ -1,8 +1,20 @@
 ---
 lab:
-    title: 'Configure Microsoft Defender'
-    module: 'Configure the Microsoft Defender XDR environment'
+  title: Configure Microsoft Defender
+  module: Configure the Microsoft Defender XDR environment
+  description: You're a Security Operations Analyst working at a company that is implementing
+    Microsoft Defender XDR. Your role is to guide the company’s IT team in defending
+    against threats with Microsoft Defender (XDR). The company’s executives are very
+    concerned that all guidelines are followed and that all requirements are met when
+    you complete the activities in their environment.
+  duration: 5 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Microsoft Defender
+  - Microsoft Defender XDR
 ---
+
 You're a Security Operations Analyst working at a company that is implementing Microsoft Defender XDR. Your role is to
 guide the company’s IT team in defending against threats with Microsoft Defender (XDR). The company’s executives are very concerned that all guidelines are followed and that all requirements are met when you complete the activities in their environment.
 
