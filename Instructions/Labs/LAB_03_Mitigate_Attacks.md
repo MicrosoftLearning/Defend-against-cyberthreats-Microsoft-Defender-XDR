@@ -1,7 +1,17 @@
 ---
 lab:
-    title: 'Mitigate Attacks with Microsoft Defender for Endpoint'
-    module: 'Mitigate threats using Microsoft Defender for Endpoint'
+  title: Mitigate Attacks with Microsoft Defender for Endpoint
+  module: Mitigate threats using Microsoft Defender for Endpoint
+  description: You are a Security Operations Analyst working at a company that is
+    implementing Microsoft Defender for Endpoint. Your manager plans to onboard a
+    few devices to provide insight into required changes to the Security Operations
+    (SecOps) team response procedures.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Microsoft Defender
+  - Microsoft Defender for Endpoint
 ---
 
 # Mitigate Attacks with Microsoft Defender for Endpoint
