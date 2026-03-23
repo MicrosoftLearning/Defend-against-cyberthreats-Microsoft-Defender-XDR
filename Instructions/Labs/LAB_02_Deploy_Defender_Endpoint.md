@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Deploy Microsoft Defender for Endpoint'
-    module: Mitigate threats using Microsoft Defender for Endpoint'
+  title: Deploy Microsoft Defender for Endpoint
+  module: Mitigate threats using Microsoft Defender for Endpoint'
+  description: You're a Security Operations Analyst working at a company that is implementing Microsoft Defender for Endpoint. Your manager plans to onboard a few devices to provide insight into required changes to the Security Operations (SecOps) team response procedures.
+  duration: 20 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Defender
+    - Microsoft Defender for Endpoint
 ---
 
 # Deploy Microsoft Defender for Endpoint
@@ -16,7 +23,7 @@ You start by initializing the Defender for Endpoint environment. Next, you onboa
 
 >**Note:** Make sure you have completed successfully Task 1 of the previous module.
 
-This exercise should take approximately **15** minutes to complete.
+This exercise should take approximately **20** minutes to complete.
 
 ### Task 1: Initialize Microsoft Defender for Endpoint
 
@@ -26,7 +33,7 @@ In this task, you perform the initialization of the Microsoft Defender for Endpo
 
 1. If you aren't already at the Microsoft Defender XDR portal, start the Microsoft Edge browser.
 
-1. In the Microsoft Edge browser, go to the Defender XDR portal at (<https://security.microsoft.com>).
+1. In the Microsoft Edge browser, go to [Microsoft Defender XDR](https://security.microsoft.com).
 
 1. In the **Sign in** dialog box, copy, and paste in the tenant Email account for the admin username provided by your lab hosting provider and then select **Next**.
 
