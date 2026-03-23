@@ -3,8 +3,8 @@ lab:
   title: Configure Microsoft Defender
   module: Configure the Microsoft Defender XDR environment
   description: In this exercise you will provision your Microsoft Defender XDR environment, onboard client workstations in Defender for Endpoint and perform a simulated attack scenario on a client workstation.
-  duration: 5 minutes
-  level: 300
+  duration: 15 minutes
+  level: 200
   islab: true
   primarytopics:
     - Microsoft Defender
@@ -25,7 +25,7 @@ This exercise should take approximately **10 - 15** minutes to complete.
 
 ## Task 1- Preparing the Microsoft Defender XDR workspace
 
-1. In the Microsoft Edge browser, go to the Microsoft Defender portal at (<https://security.microsoft.com>).
+1. In the Microsoft Edge browser, go to [Microsoft Defender XDR](https://security.microsoft.com).
 1. On the **Microsoft Defender** portal, from the navigation menu, select **Home** from the left.
 
     >**Note:** You may need to scroll all the way to the menu top.
@@ -46,7 +46,7 @@ In this task, you'll assign preset security policies for Exchange Online Protect
 
 1. Start the Microsoft Edge browser.
 
-1. In the Microsoft Edge browser, go to the Microsoft Defender XDR portal at (<https://security.microsoft.com>).
+1. In the Microsoft Edge browser, go to the [Microsoft Defender XDR](https://security.microsoft.com).
 
 1. In the **Sign in** dialog box, copy, and paste in the tenant Email account for the admin username provided by your lab hosting provider and then select **Next**.
 
