@@ -2,7 +2,7 @@
 lab:
   title: Configure Microsoft Defender
   module: Configure the Microsoft Defender XDR environment
-  description: In this exercise you will provision your Microsoft Defender XDR environment and apply the built-in Standard and Strict preset security policies for Exchange Online Protection and Microsoft Defender for Office 365.
+  description: In this exercise you will provision your Microsoft Defender XDR environment, onboard client workstations in Defender for Endpoint and perform a simulated attack scenario on a client workstation.
   duration: 15 minutes
   level: 200
   islab: true
@@ -16,7 +16,7 @@ guide the company’s IT team in defending against threats with Microsoft Defend
 
 # Configure the Microsoft Defender XDR environment
 
-In this exercise you will provision your Microsoft Defender XDR environment and apply the built-in Standard and Strict preset security policies for Exchange Online Protection (EOP) and Microsoft Defender for Office 365.
+In this exercise you will provision your Microsoft Defender XDR environment, onboard client workstations in Defender for Endpoint and perform a simulated attack scenario on a client workstation.
 
 This exercise should take approximately **10 - 15** minutes to complete.
 
