@@ -25,7 +25,7 @@ This exercise should take approximately **30** minutes to complete.
 
 In this task, you will confirm that the device is onboarded successfully and create a test alert.
 
-1. If you are not already at the Microsoft Defender XDR portal in your Microsoft Edge browser, go to **Microsoft Defender XDR** at **`https://security.microsoft.com`** and login as Admin for your tenant.
+1. If you are not already at the Microsoft Defender XDR portal in your Microsoft Edge browser, go to [Microsoft Defender XDR](https://security.microsoft.com) and log in as Admin for your tenant.
 
 1. In the left-hand menu, under the **Assets** area, select **Devices**. Please wait until WIN1 appears in the Devices page before you continue. Otherwise, you might need to repeat this task to see the alerts that will be generated later.
 
