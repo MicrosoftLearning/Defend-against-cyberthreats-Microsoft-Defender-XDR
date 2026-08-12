@@ -29,7 +29,7 @@ In this task, you'll provision the Microsoft Defender XDR workspace so that it's
 
 1. Sign in to the **WIN1** virtual machine as **Admin** with the password **Pa55w.rd**.
 
-1. Open Microsoft Edge and navigate to the **Microsoft Defender XDR** portal at `https://security.microsoft.com`. Sign in with the Global Administrator account provided by your authorized lab hoster (ALH).
+1. Open Microsoft Edge and navigate to the **Microsoft Defender XDR** portal at `https://security.microsoft.com`. Sign in with the Global Administrator account provided by your authorized lab hosting provider (ALH).
 
     >**Note:** If you receive the message *The operation could not be completed. Please try again later. If the problem persists, contact Microsoft support.*, select **OK** to continue.
 
