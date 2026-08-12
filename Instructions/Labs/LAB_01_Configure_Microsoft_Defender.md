@@ -2,7 +2,7 @@
 lab:
   title: Configure Microsoft Defender
   module: Configure the Microsoft Defender XDR environment
-  description: In this exercise you will provision your Microsoft Defender XDR environment, onboard client workstations in Defender for Endpoint and perform a simulated attack scenario on a client workstation.
+  description: In this exercise you will provision your Microsoft Defender XDR workspace and apply the built-in Standard and Strict preset security policies to protect your tenant.
   duration: 15 minutes
   level: 200
   islab: true
@@ -16,12 +16,12 @@ guide the company’s IT team in defending against threats with Microsoft Defend
 
 # Configure the Microsoft Defender XDR environment
 
-In this exercise you will provision your Microsoft Defender XDR environment, onboard client workstations in Defender for Endpoint and perform a simulated attack scenario on a client workstation.
+In this exercise you will provision your Microsoft Defender XDR workspace and apply the built-in Standard and Strict preset security policies to protect your tenant.
 
 This exercise should take approximately **10 - 15** minutes to complete.
 
 >**Important:**
-> You'll need to have access to a Microsoft 365 E5 Tenant with a Microsoft Defender for Endpoint P2 license to perform the following exercises. You will also need to have Microsoft Windows 10 or 11 client workstations to onboard and perform simulated attacks on.
+> You'll need access to a Microsoft 365 E5 tenant with a Microsoft Defender for Endpoint P2 license to complete these exercises.
 
 ### Task 1: Preparing the Microsoft Defender XDR workspace
 
