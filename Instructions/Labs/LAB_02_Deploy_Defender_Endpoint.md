@@ -51,7 +51,6 @@ In this task, you perform the initialization of the Microsoft Defender for Endpo
 
     >**Hint:** If you do not see the option, refresh the page.
 
-
 ### Task 2: Onboard a Device
 
 In this task, you onboard a device to Microsoft Defender for Endpoint using an onboarding script.
@@ -61,23 +60,32 @@ In this task, you onboard a device to Microsoft Defender for Endpoint using an o
 1. Select **Onboarding** in the Device management section.
 
     >**Note:** You can also perform device onboarding from the **Assets** section of the left menu bar. Expand Assets and select Devices. On the Device Inventory page, with Computers & Mobile selected, scroll down to **Onboard devices.** This takes you to the **Settings > Endpoints** page.
+    
+1. In **Settings > Endpoints > Onboarding**, scroll to **Deploy by downloading and applying packages or files**. In the **Defender deployment tool** section, select **Onboard**.
 
-1. In the "1. Onboard a device" area make sure "Local Script (for up to 10 devices)" is displayed in the Deployment method drop-down and select the **Download onboarding package** button.
+1. In the **Generate the Defender deployment tool with an access key** pane, enter a name and select **Generate**.
 
-1. Under the *Downloads* pop-up, highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon **Show in folder**. **Hint:** In case you don't see it, the file should be in the c:\users\admin\downloads directory.
+1. Copy the generated deployment key, and select **Download deployment tool**, and then select **.zip**.
 
-    >**Tip:**
-    > If your browser blocks the download, take action in the browser to allow it. In the Microsoft Edge Browser, you may see the message, "*WindowsDefenderATPOnboardingPackage.zip isn't commonly downloaded. Make sure you trust...*, select the ellipsis button (...) if needed and then select **Keep**. In Microsoft Edge a second pop-up appears with the message,"*Make sure you trust WindowsDefenderATPOnboardingPackage.zip before you open it*", select **Show more** to expand the selections and select **Keep anyway**.
+1. Open the downloaded ZIP file from the browser download notification, or navigate to the **Downloads** folder.
 
-1. Right-click the downloaded zip file and select **Extract All...**, make sure that *Show extracted files when complete* is checked and select **Extract**.
+    >**Hint:** The downloaded file should be located in `C:\Users\Admin\Downloads`.
 
-1. Right-click on the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" and select **Properties**. Select the **Unblock** checkbox in the bottom right of the Properties windows and select **OK**.
+1. Right-click the downloaded ZIP file, select **Extract All...**, verify that **Show extracted files when complete** is selected, and then select **Extract**.
 
-1. Right-click on the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" again and choose **Run as Administrator**.  **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**.
+1. Open the extracted folder and run **DefenderDeploymentTool_Onboard_`<name>`.exe** (where `<name>` matches the name you entered).
+   
+1. If the **User Account Control** window appears, select **Yes**.
 
-1. When the "User Account Control" window is shown, select **Yes** to allow the script to run and answer **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
+1. In the **Microsoft Defender deployment tool** window, select **Continue**.
 
-1. Press any key to continue. This closes the Command Prompt window.
+1. When prompted, paste the deployment key that you copied earlier and verify that the key is shown as **Valid**.
+
+1. Select **Continue** to start the onboarding process.
+
+1. Wait for the onboarding process to complete successfully, then select **OK** to close the deployment tool.
+
+1. On the **Your Defender deployment package and key are ready!** pane, verify that the **Deployment tool downloaded successfully!** message appears, and then close the pane.
 
 ### Task 3: Configure Roles
 
