@@ -41,7 +41,7 @@ In this task, you perform the initialization of the Microsoft Defender for Endpo
 
     >**Tip:** The admin's tenant email account and password can be found on the Resources tab.
 
-1. On the **Defender XDR** portal, from the navigation menu on the left, scroll down and expand the **System** section and select **Settings**.
+1. On the **Defender XDR** portal, from the navigation menu on the left, scroll down and expand the **Setup & configuration** section and select **Settings**.
 
 1. On the Settings page, select **Device discovery**.
 
@@ -55,7 +55,7 @@ In this task, you perform the initialization of the Microsoft Defender for Endpo
 
 In this task, you onboard a device to Microsoft Defender for Endpoint using an onboarding script.
 
-1. In the **Defender XDR** portal, from the navigation menu on the left, scroll down and expand the **System** section and select **Settings**, then from the Settings page select **Endpoints**.
+1. In the **Defender XDR** portal, from the navigation menu on the left, scroll down and expand the **Setup & configuration** section and select **Settings**, then from the Settings page select **Endpoints**.
 
 1. Select **Onboarding** in the Device management section.
 
@@ -91,7 +91,7 @@ In this task, you onboard a device to Microsoft Defender for Endpoint using an o
 
 In this task, you configure roles for use with device groups.
 
-1. In the Microsoft Defender XDR portal navigation menu, expand the **System** section and select **Settings**, then select **Microsoft Defender XDR**.
+1. In the Microsoft Defender XDR portal navigation menu, expand the **Setup & configuration** section and select **Settings**, then select **Microsoft Defender XDR**.
 
 1. Select **Permissions and Roles** under the *Account* section.
 
@@ -135,7 +135,7 @@ In this task, you configure roles for use with device groups.
 
 In this task, you configure device groups that allow for access control and automation configuration.
 
-1. In the Microsoft Defender XDR portal left menu bar, expand the **System** section and select **Settings**, then select **Endpoints**.
+1. In the Microsoft Defender XDR portal left menu bar, expand the **Setup & configuration** section and select **Settings**, then select **Endpoints**.
 
 1. Select **Device groups** under the permissions area.
 
