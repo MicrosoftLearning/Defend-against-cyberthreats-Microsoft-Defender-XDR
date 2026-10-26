@@ -25,13 +25,13 @@ This exercise should take approximately **30** minutes to complete.
 
 In this task, you will confirm that the device is onboarded successfully and create a test alert.
 
-1. If you are not already at the Microsoft Defender XDR portal in your Microsoft Edge browser, go to [Microsoft Defender XDR](https://security.microsoft.com) and log in as Admin for your tenant.
+1. If you are not already at the Microsoft Defender XDR portal in your Microsoft Edge browser, go to **Microsoft Defender XDR** at `https://security.microsoft.com` and log in as Admin for your tenant.
 
 1. In the left-hand menu, under the **Assets** area, select **Devices**. Please wait until WIN1 appears in the Devices page before you continue. Otherwise, you might need to repeat this task to see the alerts that will be generated later.
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
-1. In the Microsoft Defender XDR portal left menu bar, expand the **System** section and select **Settings**, then from the *Settings* page select **Endpoints**.
+1. In the Microsoft Defender XDR portal left menu bar, expand the **Setup & configuration** section and select **Settings**, then from the *Settings* page select **Endpoints**.
 
 1. Select **Onboarding** in the Device management section and make sure *"Windows 10 and 11"* is selected as operating system. The *"First device onboarded"* message now shows *Completed*.
 
